@@ -6,8 +6,6 @@ import { SimpleMask } from './../simple-mask';
   selector: '[simpleMask]'
 })
 
-/** Mask used on answer component */
-@Injectable()
 export class SimpleMaskDirective extends SimpleMask {
   @Input('simpleMask') mask: string;
   @Input() clearIfNotMatch: boolean;
